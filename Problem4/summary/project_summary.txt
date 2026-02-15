@@ -1,0 +1,39 @@
+
+SPORTS VS POLITICS TEXT CLASSIFICATION - PROJECT SUMMARY
+======================================================================
+
+DATASET INFORMATION:
+- Total samples: 97
+- Training samples: 77
+- Testing samples: 20
+- Classes: Sports, Politics (balanced)
+
+FEATURE EXTRACTION METHODS:
+1. Bag of Words (BoW): 1000 features
+2. TF-IDF: 1000 features
+3. Bigrams (1-2): 1000 features
+
+MACHINE LEARNING MODELS TESTED:
+1. Naive Bayes (Multinomial)
+2. Logistic Regression
+3. Support Vector Machine (Linear kernel)
+4. Random Forest (100 estimators)
+
+BEST PERFORMING MODEL:
+- Model: NaiveBayes_BoW
+- Test Accuracy: 1.0000
+- F1-Score: 1.0000
+- Cross-validation: 0.9733 (+/- 0.0533)
+
+TOP 3 MODEL CONFIGURATIONS:
+
+1. NaiveBayes with BoW
+   Accuracy: 1.0000, F1: 1.0000
+
+7. SVM with TF-IDF
+   Accuracy: 1.0000, F1: 1.0000
+
+6. LogisticRegression with TF-IDF
+   Accuracy: 1.0000, F1: 1.0000
+
+======================================================================

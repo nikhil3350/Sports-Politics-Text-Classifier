@@ -1,0 +1,139 @@
+{
+  "total_samples": 97,
+  "train_samples": 77,
+  "test_samples": 20,
+  "num_features": {
+    "BoW": 1000,
+    "TF-IDF": 1000,
+    "Bigram": 1000
+  },
+  "best_model": {
+    "name": "NaiveBayes_BoW",
+    "accuracy": 1.0,
+    "f1_score": 1.0,
+    "cv_mean": 0.9733333333333334,
+    "cv_std": 0.05333333333333332
+  },
+  "all_results": [
+    {
+      "Model": "NaiveBayes",
+      "Features": "BoW",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "CV Mean": 0.9733333333333334,
+      "CV Std": 0.05333333333333332
+    },
+    {
+      "Model": "SVM",
+      "Features": "TF-IDF",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "CV Mean": 0.9866666666666667,
+      "CV Std": 0.02666666666666666
+    },
+    {
+      "Model": "LogisticRegression",
+      "Features": "TF-IDF",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "CV Mean": 0.9866666666666667,
+      "CV Std": 0.02666666666666666
+    },
+    {
+      "Model": "NaiveBayes",
+      "Features": "TF-IDF",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "CV Mean": 1.0,
+      "CV Std": 0.0
+    },
+    {
+      "Model": "SVM",
+      "Features": "Bigram",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "CV Mean": 0.9733333333333334,
+      "CV Std": 0.03265986323710903
+    },
+    {
+      "Model": "LogisticRegression",
+      "Features": "Bigram",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "CV Mean": 0.9866666666666667,
+      "CV Std": 0.02666666666666666
+    },
+    {
+      "Model": "NaiveBayes",
+      "Features": "Bigram",
+      "Accuracy": 1.0,
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1-Score": 1.0,
+      "CV Mean": 1.0,
+      "CV Std": 0.0
+    },
+    {
+      "Model": "LogisticRegression",
+      "Features": "BoW",
+      "Accuracy": 0.95,
+      "Precision": 0.9545454545454545,
+      "Recall": 0.95,
+      "F1-Score": 0.949874686716792,
+      "CV Mean": 0.9733333333333334,
+      "CV Std": 0.03265986323710903
+    },
+    {
+      "Model": "SVM",
+      "Features": "BoW",
+      "Accuracy": 0.95,
+      "Precision": 0.9545454545454545,
+      "Recall": 0.95,
+      "F1-Score": 0.949874686716792,
+      "CV Mean": 0.9733333333333334,
+      "CV Std": 0.03265986323710903
+    },
+    {
+      "Model": "RandomForest",
+      "Features": "BoW",
+      "Accuracy": 0.9,
+      "Precision": 0.9166666666666667,
+      "Recall": 0.9,
+      "F1-Score": 0.898989898989899,
+      "CV Mean": 0.9733333333333334,
+      "CV Std": 0.03265986323710903
+    },
+    {
+      "Model": "RandomForest",
+      "Features": "Bigram",
+      "Accuracy": 0.9,
+      "Precision": 0.9166666666666667,
+      "Recall": 0.9,
+      "F1-Score": 0.898989898989899,
+      "CV Mean": 0.9341666666666668,
+      "CV Std": 0.04219662967057387
+    },
+    {
+      "Model": "RandomForest",
+      "Features": "TF-IDF",
+      "Accuracy": 0.85,
+      "Precision": 0.8846153846153847,
+      "Recall": 0.85,
+      "F1-Score": 0.846547314578005,
+      "CV Mean": 0.9341666666666667,
+      "CV Std": 0.05965176722724426
+    }
+  ]
+}
